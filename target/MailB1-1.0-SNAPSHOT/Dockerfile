@@ -3,5 +3,5 @@
 # Click nbfs://nbhost/SystemFileSystem/Templates/Other/Dockerfile to edit this template
 
 FROM alpine:latest
-
+EXPOSE 8080
 CMD ["/bin/sh"]
