@@ -4,5 +4,7 @@ FROM tomcat:latest
 # Sao chép tệp WAR của bạn vào thư mục webapps của Tomcat
 COPY ./target/MailB1-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
 
-# Mở cổng 8080
-EXPOSE 8080
+# Mở cổng 0000
+EXPOSE 0000
+
+CMD ["catalina.sh", "run"]
