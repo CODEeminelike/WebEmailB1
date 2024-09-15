@@ -1,4 +1,4 @@
-# Sử dụng hình ảnh Tomcat chính thức từ Docker Hub
+
 FROM tomcat:latest
 
 RUN rm -rf /usr/local/tomcat/webapps/*
